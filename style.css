@@ -1,0 +1,48 @@
+.besar {
+    height: 100px;
+}
+
+.cari {
+    top: 29px;
+    right: 18px;
+    width: 90px;
+    height: 43px;
+}
+
+.radius {
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 992px) {
+    .logo {
+       left: 80px; 
+    }
+
+    .sign-in {
+        right: 5px;
+    }
+
+    .stay {
+        position: absolute;
+        top: 5px;
+    }
+
+    .besar {
+        height: 200px;
+    }
+
+    .cari {
+        top: 110px;
+        right: 35px;
+        width: 90%;
+        height: 50px;
+    }
+
+    .radius {
+    border-radius: 15px;
+    }
+
+    .padding-bawah {
+        padding-bottom: 100px;
+    }
+}
