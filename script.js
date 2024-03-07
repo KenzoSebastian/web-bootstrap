@@ -1,6 +1,7 @@
 const subSearch = Array.from(document.querySelectorAll(".sub-search"));
 const input = document.querySelector("#search");
 
+
 subSearch.forEach((e) => {
     e.addEventListener("click", (target) => {
         subSearch[0].classList.remove("active");
