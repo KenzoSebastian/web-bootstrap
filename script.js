@@ -26,3 +26,24 @@ subSearch.forEach((e) => {
         }
     })
 })
+
+
+const next = document.querySelector(".tombol2")
+
+next.addEventListener("click", function () {
+    const cards = Array.from(document.getElementsByClassName("cards"))
+    cards.forEach((card) => {
+        card.classList.add("geser-kanan")
+        card.classList.remove("geser-kiri")
+    })
+})
+
+const previous = document.querySelector(".tombol1")
+
+previous.addEventListener("click", function () {
+    const cards = Array.from(document.getElementsByClassName("cards"))
+    cards.forEach((card) => {
+        card.classList.add("geser-kiri")
+        card.classList.remove("geser-kanan")
+    })
+})

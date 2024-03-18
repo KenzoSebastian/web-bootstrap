@@ -1,3 +1,4 @@
+
 .besar {
     height: 100px;
 }
@@ -11,6 +12,33 @@
 
 .radius {
     border-radius: 25px;
+}
+
+.tombol1 {
+    position: absolute;
+    height: 230px;
+    width: 70px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%,  rgba(255, 255, 255, 0) 100%);    
+}
+
+.tombol2 {
+    position: absolute;
+    right: 0;
+    height: 230px;
+    width: 70px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(2,0,36,1) 100%);
+}
+
+
+.geser-kanan {
+    transition: all 1s;
+    transform: translateX(-630px);
+    /* animation: geser 2s forwards; */
+}
+.geser-kiri {
+    transition: all 1s;
+    transform: translateX(0);
+    /* animation: geser 2s forwards; */
 }
 
 @media screen and (max-width: 992px) {
@@ -44,5 +72,13 @@
 
     .padding-bawah {
         padding-bottom: 100px;
+    }
+}
+
+@keyframes geser {
+    0% {
+        transform: translateX(0);
+    } 100% {
+        transform: translateX(-230px);
     }
 }
