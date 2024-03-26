@@ -32,7 +32,7 @@
 
 .geser-kanan {
     transition: all 1s;
-    transform: translateX(-630px);
+    transform: translateX(-395px);
     /* animation: geser 2s forwards; */
 }
 .geser-kiri {
